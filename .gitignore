@@ -1,0 +1,56 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Generated files
+*.g.cs
+*.g.i.cs
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+*.sln.iml
+
+# VS Code local settings
+.vscode/*
+
+# Dotnet test results
+TestResults/
+
+# Publish output
+publish/
+
+# Azure / local secrets
+secrets.json
+appsettings.Development.json
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
